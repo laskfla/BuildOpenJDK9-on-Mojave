@@ -83,7 +83,7 @@ export LANG=C
 make all LOG=debug  2>&1 | tee make_mac_x64.log  
 
 ---------
-**Import project to Xcode for debug **
+**Import project to Xcode for debug**  
 follow the instruction of https://www.zhihu.com/question/52169710  
 1. create project and cleanup the auto-generated code.  
 2. Add new files ( the git repository)  
