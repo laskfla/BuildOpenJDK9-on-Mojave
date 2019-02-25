@@ -16,6 +16,9 @@ supported by Apple.
 1. Download source code from https://github.com/unofficial-openjdk/openjdk.  
 This is essential , at least for me.  I have tried the other github source for openjdk and only succeed with this one.  
 
+Then checkout the openjdk9 code :  
+git checkout origin/openjdk9  -b jdk9  
+
 2. Dependency setup.  
 brew install freetype   #for font image
 brew install ccache  #for compiler cache to speed up compilation.  
