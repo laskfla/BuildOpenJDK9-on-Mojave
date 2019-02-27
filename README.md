@@ -16,8 +16,8 @@ supported by Apple.
 1. Download source code from https://github.com/unofficial-openjdk/openjdk.  
 This is essential , at least for me.  I have tried the other github source for openjdk and only succeed with this one.  
 
-Then checkout the openjdk9 code :  
-git checkout origin/openjdk9  -b jdk9  
+   Then checkout the openjdk9 code :  
+   git checkout origin/openjdk9  -b jdk9  
 
 2. Dependency setup.  
 brew install freetype   #for font image
@@ -29,7 +29,8 @@ bash configure --with-target-bits=64 --with-freetype=/usr/local/Cellar/freetype/
  --with-extra-cflags='-stdlib=libc++ ' \
 --with-extra-ldflags='-stdlib=libc++' 2>&1 | tee configure_mac_x64.log
 
---with-freetype=/usr/local/Cellar/freetype/2.9.1  to add freetype location as the configure script can not find that.
+--with-freetype=/usr/local/Cellar/freetype/2.9.1  to add freetype location as the configure script can not find that.  
+
 -disable-warnings-as-errors to disable the feature reporting warnings as error.
 
 --with-extra-cxxflags[cflags,ldflags] : This is to use libc++ which is the replacment of libstdc++ (in GCC) for Clang.
