@@ -99,7 +99,7 @@ follow the instruction of https://www.zhihu.com/question/52169710
 
 5. click run to play now.  
 
-**[Reference]** 
+**[Reference]**   
  https://medium.com/@neerajx86/setup-openjdk-9-build-environment-on-macos-d49609f773e9  
  https://www.jianshu.com/p/ee7e9176632c  
  https://stackoverflow.com/questions/52425766/stdlibc-headers-not-found-error-on-xcode-10  
